@@ -1,3 +1,5 @@
+import { helper } from "./helper";
+
 export default function handler(req, res) {
     res
       .status(200)
@@ -7,6 +9,7 @@ export default function handler(req, res) {
         body: req.body,
         headers: req.headers,
         url: req.url,
-        randomNumber: Math.floor((Math.random()*100) + 1)
+        randomNumber: Math.floor((Math.random()*100) + 1),
+        helperText: helper()
       })
   }
