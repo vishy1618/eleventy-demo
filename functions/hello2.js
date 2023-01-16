@@ -1,6 +1,6 @@
 import { helper } from "./helper";
 
-export default handler = (req, res) => {
+const handler = (req, res) => {
     res
       .status(200)
       .json({
@@ -13,3 +13,5 @@ export default handler = (req, res) => {
         helperText: helper()
       })
   }
+
+  export default handler

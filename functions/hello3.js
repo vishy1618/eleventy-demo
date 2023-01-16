@@ -1,6 +1,6 @@
 import { helper } from "./helper";
 
-const handler = (req, res) => {
+function handler (req, res) {
     res
       .status(200)
       .json({
