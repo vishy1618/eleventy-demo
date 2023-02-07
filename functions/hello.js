@@ -1,6 +1,7 @@
 import { helper } from "./helper";
 
 export default function handler(req, res) {
+  console.log("Console log from function hello!!");
     res
       .status(200)
       .json({
