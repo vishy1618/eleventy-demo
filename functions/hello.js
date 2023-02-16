@@ -3,7 +3,7 @@ export default function handler(req, res) {
   res
     .status(200)
     .setHeader(
-      'set-cookie',
+      'kola',
       '__Secure-next-auth.callback-url=https%3A%2F%2Fknowledge-base-development.devcontentstackapps.com; Path=/; HttpOnly; Secure; SameSite=Lax'
     )
     .json({
