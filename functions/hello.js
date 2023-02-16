@@ -1,9 +1,10 @@
 export default function handler(req, res) {
   console.log("Console log from function hello!!");
+  console.log(JSON.stringify(req.headers));
   res
     .status(200)
     .setHeader(
-      'kola',
+      'set-cookie',
       '__Secure-next-auth.callback-url=https%3A%2F%2Fknowledge-base-development.devcontentstackapps.com; Path=/; HttpOnly; Secure; SameSite=Lax'
     )
     .json({
