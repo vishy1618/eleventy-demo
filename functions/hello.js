@@ -1,6 +1,6 @@
 import fetch from 'node-fetch';
 
-export default function handler(req, res) {
+export default async function handler(req, res) {
   const response = await fetch('https://jsonplaceholder.typicode.com/todos/1')
   console.log(await response.json());
   res
