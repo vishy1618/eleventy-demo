@@ -5,7 +5,7 @@
       "destination": "/:url",
       "response": {
         "headers": {
-          "x-robots-tag": "index, follow"
+          "server": "lol"
         }
       }
     }
