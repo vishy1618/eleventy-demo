@@ -16,7 +16,7 @@
       "destination": "https://live-salesloft-v2.pantheonsite.io/:path",
       "response": {
         "headers": {
-          "server": "lol"
+          "x-robots-tag": "index, follow"
         }
       }
     }
