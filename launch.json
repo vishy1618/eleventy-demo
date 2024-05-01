@@ -1,9 +1,0 @@
-{
-  "redirects": [
-    {
-      "source": "/blogs/:section((?!announcements|product-updates)$)/:id",
-      "destination": "/posts/:id",
-      "statusCode": 301
-    }
-  ]
-}
